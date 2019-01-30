@@ -268,11 +268,8 @@
     alts: {
         ḑ: đḍ
         i: ı
+        "'": ’
     }
-
-    # TODO:
-    # - vowel diphthongs
-    # - is 'ï' a thing?
 
     stress: {
         a: á
@@ -285,6 +282,27 @@
         u: ú
         ü: û
     }
+
+    grave: {
+        a: à
+        e: è
+        i: ì
+        o: ò
+        u: ù
+    }
+
+    diphthongs: [
+        ai
+        ei
+        ëi
+        oi
+        ui
+        au
+        eu
+        ëu
+        iu
+        ou
+    ]
 
     sorting_order: aäbcçčdḑeëfghijklmnňoöprsštţuüvwxyzžż
 }

@@ -6,7 +6,7 @@ This project aims to maintain a comprehensive database of all lexical, morpholog
 
 Current status:
 
-* [ ] Phonology: nearly done
+* [x] Phonology: done
 * [ ] Roots: not started
 * [ ] VxCs affixes: not started
 * [ ] Morphology: not started
