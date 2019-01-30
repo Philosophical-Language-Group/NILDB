@@ -23,14 +23,14 @@
                 perspective is on motion to(ward) the topical referent of the sentence or clause, i.e., "come; approach"; CPT = "arrive"
                 perspective is on motion away from the topical referent of the sentence or clause, i.e., "go; go away; move away"; CPT = "leave; depart"
             ]
+            designation_gloss: [
+                motion
+                travel
+            ]
             stem_gloss: [
                 null
                 towards
                 away
-            ]
-            designation_gloss: [
-                motion
-                travel
             ]
         }
     }
@@ -207,8 +207,8 @@
                     Using cases, this root provides translations for phrases such as "thus"/"in this/that manner", "there"/"in that place/location", "Yes"/"It is that", "No"/"It is not that", "some / some of that", etc. As a verb, this root means "to be/do this/that" / "to be/do what is under discussion".
                     '''
                 gloss: this/that
-                stems: [null, null, null]
                 designations: [null, null]
+                stems: [null, null, null]
                 # TODO stems? designations?
             }
             t: {
