@@ -11,8 +11,8 @@ This project aims to maintain a comprehensive database of all lexical, morpholog
     - [x] Motion
     - [ ] Spatial
     - [ ] Positionally-defined componential parts
-    - [ ] General demonstrative root
-    - [ ] Copular root
+    - [x] General demonstrative root
+    - [x] Copular root
 * [ ] VxCs affixes: 0%
 * [ ] Morphology: 0%
 * [ ] Morpho-phonology: 0%
