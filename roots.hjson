@@ -293,6 +293,39 @@
                     ["($s)", "($s; $d)"]
                 ]
             }
+            v: {
+                definition: personal reference root
+                specifications: [
+                    (X-)self / to be oneself/X-self / to do/act what/how X does [because it's X]
+                    (X-)self (as one's personality, mind, psyche, sentient thoughts, psychological sense of individuality, or "essence"; irrespective of one's physical body)'
+                    (X-)self (as one's physical body/embodiment/person, irrespective of personality, mind, psyche, sentient thoughts, psychological sense of individuality, or "essence")
+                    entity with/on which X acts (i.e., place, thing, person, etc. with/in/on which/whom X [inter-]acts); something/someone from/in X's life/niche/environment / to be an entity in X's life/niche/environment; to be something/someone that/who is in X's life/niche/environment
+                    a representation of X-self / to do/act as X [would] do/act; FML = avatar of X-self
+                    X's reason for existence / to have/be a reason for X's existence
+                    X's purpose in life; what X wants to do/be / to have a purpose in life; to have a sense of what X wants to be/do / to pursue X's purpose; pursue what X wants to do; CPT Version: X's accomplishments; X's legacy; CPT: achieve X's purpose(s) / to accomplish what X sets out to do
+                    (the experience of) being X / to experience being X
+                    what it takes to be X; everything that goes into being X / to do/put what it takes into being X
+                ]
+                stems: [
+                    null
+                    + BENEFICIAL Effect
+                    + DETTRIMENTAL Effect
+                ]
+                designations: [
+                    (temporary, incidental, or "situation-at-hand" context)
+                    (iconic, archetypal, quasi-permanent context, translatable as 'identity')
+                ]
+                gloss_fmt: $d $s
+                stem_gloss: [
+                    null
+                    + BEN
+                    + DET
+                ]
+                designation_gloss: [
+                    self
+                    identity
+                ]
+            }
         }
     }
 

@@ -8,11 +8,12 @@ This project aims to maintain a comprehensive database of all lexical, morpholog
 
 * [x] Phonology: 100%
 * [ ] Roots: ~20%
-    - [x] Motion
     - [ ] Spatial
+    - [x] Motion
     - [ ] Positionally-defined componential parts
-    - [x] General demonstrative root
+    - [x] Personal reference root
     - [x] Copular root
+    - [x] General demonstrative root
 * [ ] VxCs affixes: 0%
 * [ ] Morphology: 0%
 * [ ] Morpho-phonology: 0%
