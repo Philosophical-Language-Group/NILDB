@@ -167,7 +167,7 @@
             }
             kl: {
                 definition: perpendicular-planar range of motion
-                description: i.e., random directed movement within/throughout a 2-dimensional vertical plane perpendicular to the perspective of the topical referent (i.e., lying "across" one’s visual field or directional path, analogous to a painting or flat screen held up in front of a person)
+                description: i.e., random directed movement within/throughout a 2-dimensional vertical plane perpendicular to the perspective of the topical referent (i.e., lying "across" one's visual field or directional path, analogous to a painting or flat screen held up in front of a person)
                 vxcs: kl
                 template: motion
                 gloss: perpendicular range of motion
@@ -195,6 +195,103 @@
                 template: motion
                 gloss: 3D motion
                 gloss_fmt: 3D $d $s
+            }
+        }
+        special: {
+            c: {
+                definition: general demonstrative root
+                description:
+                    '''
+                    "this/that / the one at-hand / the one in question" referring to entities, situations, abstract notions, etc. (depending on the CA complex)
+
+                    Using cases, this root provides translations for phrases such as "thus"/"in this/that manner", "there"/"in that place/location", "Yes"/"It is that", "No"/"It is not that", "some / some of that", etc. As a verb, this root means "to be/do this/that" / "to be/do what is under discussion".
+                    '''
+                gloss: this/that
+                stems: [null, null, null]
+                designations: [null, null]
+                # TODO stems? designations?
+            }
+            t: {
+                definition: be (i.e., copular identification) / equivalence
+                description:
+                    '''
+                    The scope of this root's usage is narrow. It is used only in contexts requiring ontological or epistemic equivalence/identity. e.g., "I am your father." It is not to be used in the following circumstances:
+
+                        • when "be" means "be named/called", e.g., "My dog is [named/called] Toto." (Use stem meaning "be named; be called; have an appellation")
+                        • when "be" initiates an adjectival phrase, e.g., "Rain is beneficial." (Use adjectival case or a verbal stem, e.g., "to (be of) benefit")
+                        • when "be" indicates a spatio-temporal relation, e.g., "The box is on the table" (Use stem signifying the specific relation, e.g., "be on the top surface of"
+                        • when "be" means "occur / happen / take place", e.g., "Wednesday is the best day for shopping." (Use stem meaning "occur, take place, happen")
+                        • when "be" means "exist (ontologically)", e.g., "Such is life", "I think, therefore I am." (Use stem meaning "existent entity; to ontologically exist")
+                        • when "be" indicates exemplary membership in a set, e.g., "A hammer is a tool." (Use stem meaning "exemplify; be an example of" or "be a type of")
+                        • when "be" indicates composition, e.g., "Rain is water." (Use stem meaning "to consist of")
+                    '''
+                designations: [
+                    the copular relation/equivalence is circumstantial/contextual
+                    the copular relation/equivalence is inherent/inalienable/permanent
+                ]
+                specifications: [
+                    [
+                        (to be ontologically the) self-same entity (as) (i.e., [to be] simply another name for the self-same entity)
+                        be epistemically equivalent to or (functionally) identified/identifiable as; be (functionally) the same as; be equal to
+                        to be epistemically synonymous/tantamount/convertible to
+                    ]
+                    [
+                        to be ontologically the self-same entity (as) in terms of essence, sense of identity, behavior, personality, mind, etc.
+                         be epistemically equivalent to or (functionally) identif(ied/-iable) as in terms of essence, sense of identity, behavior, personality, mind, etc.
+                        to be epistemically synonymous/tantamount/convertible in terms of essence, sense of identity, behavior, personality, mind, etc.
+                    ]
+                    [
+                        to be ontologically the self-same entity (as) in terms of appearance, physical manifestation or construction
+                        to be epistemically equivalent to or (functionally) identif(ied/-iable) as in terms of appearance, physical manifestation or construction
+                        to be epistemically synonymous/tantamount/convertible to in terms of appearance or outward physical manifestation
+                    ]
+                    [
+                        what X ontologically is (as opposed to being something else), X's natural identity, X's existence as X; to be X as itself (as
+                        opposed to something else) what X is epistemically equivalent to (as opposed to something else), X's natural identity, X's existence as X; to be X as itself (as opposed to something else)
+                        (to be )what X is epistemically synonymous/tantamount/convertible to (as opposed to something else), X's convertibility to
+                    ]
+                    [
+                        to function/act as the self-same entity (as)
+                        to function/act as the equivalent to
+                        to function/act synonymously/convertibly with
+                    ]
+                    [
+                        the cause/reason behind being one's self
+                        the cause/reason behind being equivalent to
+                        the cause/reason behind being synonymous/tantamount/convertible to
+                    ]
+                    [
+                        the desired consequences/purpose of being oneself; CPT=the consequences thereof
+                        the desired consequences/purpose of being equivalent to; CPT=the consequences thereof
+                        the desired consequences/purpose of being synonymous/tantamount/convertible to; CPT=the consequences thereof
+                    ]
+                    [
+                        the experience/feeling of being the self-same entity as
+                        the experience/feeling of being equivalent to
+                        the experience/feeling of being synonymous/tantamount/convertible to
+                    ]
+                    [
+                        (to be) what goes into being oneself
+                        (to be) what goes into being equivalent to
+                        (to be) what goes into being synonymous/tantamount/convertible to
+                    ]
+                ]
+                gloss: be
+                gloss_fmt: be $f
+                stem_gloss: [
+                    ontological
+                    equivalent
+                    synonymous
+                ]
+                designation_gloss: [
+                    null
+                    permanent
+                ]
+                full_gloss: [
+                    ["($s)", "($s; $d)"]
+                    ["($s)", "($s; $d)"]
+                    ["($s)", "($s; $d)"]
+                ]
             }
         }
     }
