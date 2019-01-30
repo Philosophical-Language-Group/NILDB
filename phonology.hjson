@@ -1,4 +1,5 @@
 {
+
     places: [
         labial
         labio-dental
@@ -24,7 +25,6 @@
         mid
         open
     ]
-
     backnesses: [
         front
         central
@@ -304,5 +304,7 @@
         ou
     ]
 
-    sorting_order: aäbcçčdḑeëfghijklmnňoöprsštţuüvwxyzžż
+    lowercase: aäbcçčdḑeëfghijklmnňoöprsštţuüvwxyzžż
+    uppercase: AÄBCÇČDḐEËFGHIJKLMNŇOÖPRSŠTŢUÜVWXYZŽŻ
+
 }
