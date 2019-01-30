@@ -25,8 +25,12 @@
             ]
             stem_gloss: [
                 null
-                $ towards
-                $ away
+                towards
+                away
+            ]
+            designation_gloss: [
+                motion
+                travel
             ]
         }
     }
@@ -35,14 +39,14 @@
         translative_motion: {
             tr: {
                 definition: path-oriented, quasi-linear translative motion
-                gloss: motion
                 vxcs: tr
                 template: motion
+                gloss: motion
+                gloss_fmt: $d $s
             }
             pr: {
                 definition: vertical quasi-linear translative motion
                 description: i.e., movement up/down
-                gloss: vertical motion
                 vxcs: pr
                 template: motion
                 stems: [
@@ -50,8 +54,10 @@
                     ascent/ascend; go (straight) up; lift/rise/raise
                     descent/descend; go (straight) down; drop/lower
                 ]
-                stem_gloss: [
-                    null
+                gloss: vertical motion
+                gloss_fmt: vertical $f
+                full_gloss: [
+                    $d
                     ascent
                     descent
                 ]
@@ -59,24 +65,24 @@
             kr: {
                 definition: oblique vertical quasi-linear motion
                 description: i.e., ascending/descending at an angle/slant
-                gloss: oblique vertical motion
-                template: motion
                 vxcs: kr
+                template: motion
                 stems: [
                     null
                     oblique ascent
                     oblique descent
                 ]
-                stem_gloss: [
-                    null
-                    oblique ascent
-                    oblique descent
+                gloss: oblique vertical motion
+                gloss_fmt: oblique $f
+                full_gloss: [
+                    vertical $d
+                    ascent
+                    descent
                 ]
             }
             dr: {
                 definition: horizontal planar translative motion
                 description: i.e., movement along a line/path on a horizontal plane between the topical referent and a second location
-                gloss: horizontal motion
                 vxcs: dr
                 template: motion
                 stems: [
@@ -84,17 +90,18 @@
                     approach, getting nearer
                     recede/receding, getting farther away
                 ]
-                stem_gloss: [
-                    null
+                gloss: horizontal motion
+                gloss_fmt: horizontal $d $s
+                full_gloss: [
+                    horizontal $d
                     approach
                     recede
                 ]
                 # TODO with CPT, stems 2 and 3 probably mean "arrival" and "departure" respectively
             }
             br: {
-                definition: perpendicular planar translative motion
+                definition: perpendicular-planar translative motion
                 description: i.e., movement along a line/path "across" one's forward path or field of vision, moving laterally (i.e., horizontally perpendicular) to the positional/orientational position or path of the topical referent (i.e., analogous to watching something moving in a line across a screen held in front of one's eyes)
-                gloss: perpendicular planar motion
                 vxcs: br
                 template: motion
                 stems: [
@@ -102,16 +109,17 @@
                     movement from left-to-right relative to the topical referent
                     movement from right-to-left relative to the topical referent
                 ]
+                gloss: perpendicular-planar motion
+                gloss_fmt: $s $d
                 stem_gloss: [
-                    null
-                    left-to-right motion
-                    right-to-left motion
+                    perpendicular-planar
+                    left-to-right
+                    right-to-left
                 ]
             }
             gr: {
                 definition: oblique lateral translative motion
                 description: i.e., moving laterally at an oblique angle on same horizontal plane as the topical referent
-                gloss: oblique lateral motion
                 vxcs: gr
                 template: motion
                 stems: [
@@ -119,11 +127,12 @@
                     lateral movement at an oblique angle approaching (i.e., getting nearer to) the topical referent
                     lateral movement at an oblique angle moving away from (getting farther away from) the topical referent
                 ]
+                gloss: oblique lateral motion
+                gloss_fmt: oblique lateral $d $s
             }
             fr: {
                 definition: parallel translative motion
                 description: i.e., movement along same path/trajectory as the topical referent
-                gloss: parallel motion
                 vxcs: fr
                 template: motion
                 stems: [
@@ -132,52 +141,60 @@
                     parallel movement alongside but in opposite direction to topical referent
                     # TODO Stem 2 and 3 here are listed as stems 1 and 2 in v0.6 -- notify JQ to fix
                 ]
+                gloss: parallel motion
+                gloss_fmt: parallel $d $s
                 stem_gloss: [
-                    none
-                    $ (same)
-                    $ (opposing)
+                    null
+                    (same direction)
+                    (opposite direction)
                 ]
             }
             gl: {
                 definition: horizontal-planar range of motion
                 description: i.e., random directed movement within/throughout a 2-dimensional horizontal plane
-                gloss: horizontal range of motion
                 vxcs: gl
                 template: motion
+                gloss: horizontal range of motion
+                gloss_fmt: horizontal range of $d $s
             }
             dl: {
                 definition: vertical-planar range of motion
                 description: i.e., random directed movement within/throughout a 2-dimensional vertical plane
-                gloss: vertical range of motion
                 vxcs: dl
                 template: motion
+                gloss: vertical range of motion
+                gloss_fmt: vertical range of $d $s
             }
             kl: {
                 definition: perpendicular-planar range of motion
-                description: i.e., random directed movement within/throughout a 2-dimensional vertical plane perpendicular to the perspective of the topical referent (i.e., lying “across” one’s visual field or directional path, analogous to a painting or flat screen held up in front of a person)
-                gloss: perpendicular range of motion
+                description: i.e., random directed movement within/throughout a 2-dimensional vertical plane perpendicular to the perspective of the topical referent (i.e., lying "across" one’s visual field or directional path, analogous to a painting or flat screen held up in front of a person)
                 vxcs: kl
                 template: motion
+                gloss: perpendicular range of motion
+                gloss_fmt: perpendicular range of $d $s
             }
             pl: {
                 definition: translative motion along parabolic/arc-like trajectory relative to gravity
                 # TODO "PRABOLIC" in v0.6
-                gloss: parabolic motion
                 vxcs: pl
                 template: motion
+                gloss: parabolic motion
+                gloss_fmt: parabolic $d $s
             }
             bl: {
                 definition: motion in a curve
-                gloss: curvy motion
                 vxcs: bl
                 template: motion
+                gloss: curvy motion
+                gloss_fmt: curvy $d $s
             }
             tl: {
                 definition: generic/oblique 3-dimensional range of motion
                 description: i.e., 3-D pervasive movement throughout or within a volume of space
-                gloss: 3D motion
                 vxcs: tl
                 template: motion
+                gloss: 3D motion
+                gloss_fmt: 3D $d $s
             }
         }
     }
