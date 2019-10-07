@@ -12,10 +12,12 @@ manners:
 - stop
 - affricate
 - sibilant fricative
+- lateral fricative
 - fricative
 - nasal
 - liquid
 - approximant
+- lateral approximant
 opennesses:
 - close
 - mid
@@ -81,10 +83,15 @@ consonants:
     place: velar
     manner: stop
   l:
-    ipa: l
+    ipa: l̪
     v:
     place: dental
-    manner: liquid
+    manner: lateral approximant
+  ļ:
+    ipa: ɬ
+    v: false
+    place: alveolar
+    manner: lateral fricative
   m:
     ipa: m
     v:
@@ -109,7 +116,7 @@ consonants:
     ipa: r
     v:
     place: alveolar
-    manner: liquid
+    manner: tap
   s:
     ipa: s
     v: false
@@ -247,5 +254,5 @@ diphthongs:
 - ëu
 - iu
 - ou
-lowercase: aäbcçčdḑeëfghijklmnňoöprsštţuüvwxyzžż
-uppercase: AÄBCÇČDḐEËFGHIJKLMNŇOÖPRSŠTŢUÜVWXYZŽŻ
+lowercase: aäbcçčdḑeëfghijklļmnňoöprsštţuüvwxyzžż
+uppercase: AÄBCÇČDḐEËFGHIJKLĻMNŇOÖPRSŠTŢUÜVWXYZŽŻ
