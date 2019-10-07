@@ -1,0 +1,346 @@
+---
+templates:
+  motion:
+    generic_root: tr
+    specifications:
+    - translative motion (i.e., changing location through spacetime) from one
+      place to another; to move (i.e., change location through spacetime) from
+      one place to another
+    - the process of movement itself from one place to another; to be moving
+      from one place to another
+    - the path/trajectory/course/route followed between two places; to move
+      along/through the path/trajectory/course/route from one place to another
+    - the entity moving from one place to another; to be the entity moving from
+      one place to another
+    - an act which functions/serves as translative motion; to act/function as
+      translative motion
+    - the cause/source/reason for moving from one place to another; to be the
+      cause/source/reason thereof
+    - the purpose (i.e., desired outcome) for an act of translative motion; to
+      move from one place to another for a specific purpose/reason. [CPT version
+      = (to achieve) the desired outcome thereof]
+    - the physical experience/sensation of translative motion; to undergo the
+      experience/sensation thereof
+    - the underlying premise/assumption/prerequisite for an act of translative
+      motion; to be an underlying premise/assumption/prerequisite for an act of
+      translative motion.
+    designations:
+    - circumstantial, context-of-the-moment movement
+    - planned travel, a formal traversal, a dedicated journey, a pre-planned
+      route, etc.
+    stems:
+    -
+    - perspective is on motion to(ward) the topical referent of the sentence or
+      clause, i.e., "come; approach"; CPT = "arrive"
+    - perspective is on motion away from the topical referent of the sentence or
+      clause, i.e., "go; go away; move away"; CPT = "leave; depart"
+    designation_gloss:
+    - motion
+    - travel
+    stem_gloss:
+    -
+    - $d towards
+    - $d away
+categories:
+  translative_motion:
+    tr:
+      definition: path-oriented, quasi-linear translative motion
+      vxcs: tr
+      template: motion
+      gloss: motion
+      gloss_fmt: $d $s
+    pr:
+      definition: vertical quasi-linear translative motion
+      description: i.e., movement up/down
+      vxcs: pr
+      template: motion
+      stems:
+      -
+      - ascent/ascend; go (straight) up; lift/rise/raise
+      - descent/descend; go (straight) down; drop/lower
+      gloss: vertical motion
+      gloss_fmt: vertical $f
+      full_gloss:
+      - $d
+      - ascent
+      - descent
+    kr:
+      definition: oblique vertical quasi-linear motion
+      description: i.e., ascending/descending at an angle/slant
+      vxcs: kr
+      template: motion
+      stems:
+      -
+      - oblique ascent
+      - oblique descent
+      gloss: oblique vertical motion
+      gloss_fmt: oblique $f
+      full_gloss:
+      - vertical $d
+      - ascent
+      - descent
+    dr:
+      definition: horizontal planar translative motion
+      description: >-
+        i.e., movement along a line/path on a horizontal plane between the
+        topical referent and a second location vxcs: dr
+
+      template: motion
+      stems:
+      -
+      - approach, getting nearer
+      - recede/receding, getting farther away
+      gloss: horizontal motion
+      gloss_fmt: horizontal $d $s
+      full_gloss:
+      - horizontal $d
+      - approach
+      - recede
+    br:
+      definition: perpendicular-planar translative motion
+      description: >-
+        i.e., movement along a line/path "across" one's forward path or field of
+        vision, moving laterally (i.e., horizontally perpendicular) to the
+        positional/orientational position or path of the topical referent (i.e.,
+        analogous to watching something moving in a line across a screen held in
+        front of one's eyes) vxcs: br
+
+      template: motion
+      stems:
+      -
+      - movement from left-to-right relative to the topical referent
+      - movement from right-to-left relative to the topical referent
+      gloss: perpendicular-planar motion
+      gloss_fmt: $s $d
+      stem_gloss:
+      - perpendicular-planar
+      - left-to-right
+      - right-to-left
+    gr:
+      definition: oblique lateral translative motion
+      description: >-
+        i.e., moving laterally at an oblique angle on same horizontal plane as
+        the topical referent
+
+      vxcs: gr
+      template: motion
+      stems:
+      -
+      - lateral movement at an oblique angle approaching (i.e., getting nearer
+        to) the topical referent
+      - lateral movement at an oblique angle moving away from (getting farther
+        away from) the topical referent
+      gloss: oblique lateral motion
+      gloss_fmt: oblique lateral $d $s
+    fr:
+      definition: parallel translative motion
+      description: >-
+        i.e., movement along same path/trajectory as the topical referent
+
+      vxcs: fr
+      template: motion
+      stems:
+      -
+      - parallel movement in same direction alongside topical referent
+      - parallel movement alongside but in opposite direction to topical
+        referent
+      gloss: parallel motion
+      gloss_fmt: parallel $d $s
+      stem_gloss:
+      -
+      - "(same direction)"
+      - "(opposite direction)"
+    gl:
+      definition: horizontal-planar range of motion
+      description: >-
+        i.e., random directed movement within/throughout a 2-dimensional
+        horizontal plane
+
+      vxcs: gl
+      template: motion
+      gloss: horizontal range of motion
+      gloss_fmt: horizontal range of $d $s
+    dl:
+      definition: vertical-planar range of motion
+      description: >-
+        i.e., random directed movement within/throughout a 2-dimensional
+        vertical plane
+
+      vxcs: dl
+      template: motion
+      gloss: vertical range of motion
+      gloss_fmt: vertical range of $d $s
+    kl:
+      definition: perpendicular-planar range of motion
+      description: >-
+        i.e., random directed movement within/throughout a 2-dimensional
+        vertical plane perpendicular to the perspective of the topical referent
+        (i.e., lying "across" one's visual field or directional path, analogous
+        to a painting or flat screen held up in front of a person)
+
+      vxcs: kl
+      template: motion
+      gloss: perpendicular range of motion
+      gloss_fmt: perpendicular range of $d $s
+    pl:
+      definition: >-
+        translative motion along parabolic/arc-like trajectory relative to
+        gravity
+
+      vxcs: pl
+      template: motion
+      gloss: parabolic motion
+      gloss_fmt: parabolic $d $s
+    bl:
+      definition: motion in a curve
+      vxcs: bl
+      template: motion
+      gloss: curvy motion
+      gloss_fmt: curvy $d $s
+    tl:
+      definition: generic/oblique 3-dimensional range of motion
+      description: >-
+        i.e., 3-D pervasive movement throughout or within a volume of space
+
+      vxcs: tl
+      template: motion
+      gloss: 3D motion
+      gloss_fmt: 3D $d $s
+  special:
+    c:
+      definition: general demonstrative root
+      description: >-
+        "this/that / the one at-hand / the one in question" referring to
+        entities, situations, abstract notions, etc. (depending on the
+        CA complex)
+
+        Using cases, this root provides translations for phrases such as
+        "thus"/"in this/that manner", "there"/"in that place/location",
+        "Yes"/"It is that", "No"/"It is not that", "some / some of that", etc.
+        As a verb, this root means "to be/do this/that" / "to be/do what is
+        under discussion".
+
+      gloss: this/that
+      designations:
+      -
+      -
+      stems:
+      -
+      -
+      -
+    t:
+      definition: be (i.e., copular identification) / equivalence
+      description: |-
+        The scope of this root's usage is narrow. It is used only in contexts requiring ontological or epistemic equivalence/identity. e.g., "I am your father." It is not to be used in the following circumstances:
+
+            - when "be" means "be named/called", e.g., "My dog is [named/called] Toto." (Use stem meaning "be named; be called; have an appellation")
+            - when "be" initiates an adjectival phrase, e.g., "Rain is beneficial." (Use adjectival case or a verbal stem, e.g., "to (be of) benefit")
+            - when "be" indicates a spatio-temporal relation, e.g., "The box is on the table" (Use stem signifying the specific relation, e.g., "be on the top surface of"
+            - when "be" means "occur / happen / take place", e.g., "Wednesday is the best day for shopping." (Use stem meaning "occur, take place, happen")
+            - when "be" means "exist (ontologically)", e.g., "Such is life", "I think, therefore I am." (Use stem meaning "existent entity; to ontologically exist")
+            - when "be" indicates exemplary membership in a set, e.g., "A hammer is a tool." (Use stem meaning "exemplify; be an example of" or "be a type of")
+            - when "be" indicates composition, e.g., "Rain is water." (Use stem meaning "to consist of")
+      designations:
+      - the copular relation/equivalence is circumstantial/contextual
+      - the copular relation/equivalence is inherent/inalienable/permanent
+      specifications:
+      - - (to be ontologically the) self-same entity (as) (i.e., [to be] simply
+          another name for the self-same entity)
+        - be epistemically equivalent to or (functionally)
+          identified/identifiable as; be (functionally) the same as; be equal to
+        - to be epistemically synonymous/tantamount/convertible to
+      - - to be ontologically the self-same entity (as) in terms of essence,
+          sense of identity, behavior, personality, mind, etc.
+        - be epistemically equivalent to or (functionally) identif(ied/-iable)
+          as in terms of essence, sense of identity, behavior, personality,
+          mind, etc.
+        - to be epistemically synonymous/tantamount/convertible in terms of
+          essence, sense of identity, behavior, personality, mind, etc.
+      - - to be ontologically the self-same entity (as) in terms of appearance,
+          physical manifestation or construction
+        - to be epistemically equivalent to or (functionally)
+          identif(ied/-iable) as in terms of appearance, physical manifestation
+          or construction
+        - to be epistemically synonymous/tantamount/convertible to in terms of
+          appearance or outward physical manifestation
+      - - what X ontologically is (as opposed to being something else), X's
+          natural identity, X's existence as X; to be X as itself (as
+        - opposed to something else) what X is epistemically equivalent to (as
+          opposed to something else), X's natural identity, X's existence as X;
+          to be X as itself (as opposed to something else)
+        - "(to be )what X is epistemically synonymous/tantamount/convertible to
+          (as opposed to something else), X's convertibility to"
+      - - to function/act as the self-same entity (as)
+        - to function/act as the equivalent to
+        - to function/act synonymously/convertibly with
+      - - the cause/reason behind being one's self
+        - the cause/reason behind being equivalent to
+        - the cause/reason behind being synonymous/tantamount/convertible to
+      - - the desired consequences/purpose of being oneself; CPT=the
+          consequences thereof
+        - the desired consequences/purpose of being equivalent to; CPT=the
+          consequences thereof
+        - the desired consequences/purpose of being
+          synonymous/tantamount/convertible to; CPT=the consequences thereof
+      - - the experience/feeling of being the self-same entity as
+        - the experience/feeling of being equivalent to
+        - the experience/feeling of being synonymous/tantamount/convertible to
+      - - "(to be) what goes into being oneself"
+        - "(to be) what goes into being equivalent to"
+        - "(to be) what goes into being synonymous/tantamount/convertible to"
+      gloss: be
+      gloss_fmt: be $f
+      stem_gloss:
+      - ontological
+      - equivalent
+      - synonymous
+      designation_gloss:
+      -
+      - permanent
+      full_gloss:
+      - - ($s)
+        - ($s; $d)
+      - - ($s)
+        - ($s; $d)
+      - - ($s)
+        - ($s; $d)
+    v:
+      definition: personal reference root
+      specifications:
+      - (X-)self / to be oneself/X-self / to do/act what/how X does [because
+        it's X]
+      - (X-)self (as one's personality, mind, psyche, sentient thoughts,
+        psychological sense of individuality, or "essence"; irrespective of
+        one's physical body)'
+      - (X-)self (as one's physical body/embodiment/person, irrespective of
+        personality, mind, psyche, sentient thoughts, psychological sense of
+        individuality, or "essence")
+      - entity with/on which X acts (i.e., place, thing, person, etc. with/in/on
+        which/whom X [inter-]acts); something/someone from/in X's
+        life/niche/environment / to be an entity in X's life/niche/environment;
+        to be something/someone that/who is in X's life/niche/environment
+      - a representation of X-self / to do/act as X [would] do/act; FML = avatar
+        of X-self
+      - X's reason for existence / to have/be a reason for X's existence
+      - "X's purpose in life; what X wants to do/be / to have a purpose in life;
+        to have a sense of what X wants to be/do / to pursue X's purpose; pursue
+        what X wants to do; CPT Version: X's accomplishments; X's legacy; CPT:
+        achieve X's purpose(s) / to accomplish what X sets out to do"
+      - (the experience of) being X / to experience being X
+      - what it takes to be X; everything that goes into being X / to do/put
+        what it takes into being X
+      stems:
+      -
+      - + BENEFICIAL Effect
+      - + DETTRIMENTAL Effect
+      designations:
+      - (temporary, incidental, or "situation-at-hand" context)
+      - (iconic, archetypal, quasi-permanent context, translatable as 'identity')
+      gloss_fmt: $d $s
+      stem_gloss:
+      -
+      - + BEN
+      - + DET
+      designation_gloss:
+      - self
+      - identity
