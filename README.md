@@ -7,7 +7,7 @@ This project aims to maintain a comprehensive database of all lexical, morpholog
 ## Database progress
 
 * [x] Phonology: 100%
-* [ ] Roots: ~20%
+* [ ] Roots: ~20% (TODO remove obsolete specifications)
     - [ ] Spatial
     - [x] Motion
     - [ ] Positionally-defined componential parts
@@ -20,7 +20,7 @@ This project aims to maintain a comprehensive database of all lexical, morpholog
 
 ## Additional TODOs
 
-* [ ] Script to make markdown references
+* [ ] ~~Script to make markdown references~~ _See [TNIL Freedoc](https://github.com/HactarCE/tnil-freedoc/)_
 * [ ] Searchable dictionary, like [la sutysisku](https://la-lojban.github.io/sutysisku/en/) or [lathiel.fr's](http://www.laethiel.fr/ithkuil/dico.php)
 
 ## Format
