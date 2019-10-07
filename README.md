@@ -14,8 +14,12 @@ This project aims to maintain a comprehensive database of all lexical, morpholog
     - [x] Personal reference root
     - [x] Copular root
     - [x] General demonstrative root
+    - [ ] Colors
+    - [ ] Everything else
 * [ ] VxCs affixes: 0%
 * [ ] Morphology: 0%
+    - [ ] Briefs: 67%
+    - [ ] Full descriptions: 4%
 * [ ] Morpho-phonology: 0%
 
 ## Additional TODOs
