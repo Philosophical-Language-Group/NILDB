@@ -5,8 +5,7 @@ full: TODO
 groups:
   - name: transrelative
     brief: TODO
-    full: |
-      There are 9 Transrelative cases. TODO more
+    full: TODO
     members:
       - THM
       - INS
@@ -19,8 +18,7 @@ groups:
       - IND
   - name: appositive
     brief: TODO
-    full: |
-      There are 9 Appositive cases. TODO more
+    full: TODO
     members:
       - POS
       - PRP
@@ -33,8 +31,7 @@ groups:
       - PAR
   - name: associative
     brief: TODO
-    full: |
-      There are 9 Associative cases. TODO more
+    full: TODO
     members:
       - APL
       - PUR
@@ -47,7 +44,7 @@ groups:
       - CSD
   - name: adverbial
     brief: TODO
-    full: There are 9 Adverbial cases. TODO more
+    full: TODO
     members:
       - CON
       - AVR
@@ -60,7 +57,7 @@ groups:
       - RSL
   - name: spatio-temporal
     brief: TODO
-    full: There are 16 Spatio-temporal cases. TODO more
+    full: TODO
     members:
       - LOC
       - ATD
@@ -80,7 +77,7 @@ groups:
       - PLM
   - name: relational
     brief: TODO
-    full: There are 16 Relational cases. TODO more
+    full: TODO
     members:
       - REF
       - COR

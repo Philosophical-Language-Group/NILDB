@@ -12,7 +12,6 @@ full: |
 
   TODO provide table of Tense-Aspect-Extension and Tense-Aspect1-Aspect2
   combos
-
 values:
   - abbr: 'M'
     name: monadic
