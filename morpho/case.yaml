@@ -1,10 +1,12 @@
 ---
 name: case
 brief: role in the action of a sentence
-full: TODO
+full: |
+  CASE indicates the way the marked word relates to other words in the
+  clause, especially the main verb.  
 groups:
   - name: transrelative
-    brief: TODO
+    brief: main parties to the verb
     full: TODO
     members:
       - THM
