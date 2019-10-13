@@ -1,7 +1,9 @@
 ---
 name: valence
 brief: roles of additional co-participants to the verb
-full: TODO
+full: |
+  VALENCE describes the role that parties other than the explicitly
+  marked agent play in the action of a verb.
 values:
   - abbrev: MNO
     name: monoactive
