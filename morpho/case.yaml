@@ -357,7 +357,7 @@ groups:
   - name: transrelative
     brief: main parties to the verb
     full: TODO
-    values:
+    members:
       - *THM
       - *INS
       - *ABS
@@ -370,7 +370,7 @@ groups:
   - name: appositive
     brief: TODO
     full: TODO
-    values:
+    members:
       - *POS
       - *PRP
       - *GEN
@@ -383,7 +383,7 @@ groups:
   - name: associative
     brief: TODO
     full: TODO
-    values:
+    members:
       - *APL
       - *PUR
       - *TRA
@@ -396,7 +396,7 @@ groups:
   - name: adverbial
     brief: TODO
     full: TODO
-    values:
+    members:
       - *CON
       - *AVR
       - *CVS
@@ -409,7 +409,7 @@ groups:
   - name: spatio-temporal
     brief: TODO
     full: TODO
-    values:
+    members:
       - *LOC
       - *ATD
       - *ALL
@@ -429,7 +429,7 @@ groups:
   - name: relational
     brief: TODO
     full: TODO
-    values:
+    members:
       - *REF
       - *COR
       - *CPS
