@@ -1,7 +1,11 @@
 ---
 name: affiliation
 brief: (dis)similarity of purpose between members of configurative set
-full: TODO
+full: |
+  AFFILIATION indicates the functional interrelationships of the item(s) named
+  by the stem. Unlike the physical similarities and differences found in
+  [[Configuration]], AFFILIATION expresses the ways the roles or tendencies of
+  the members of a group either reinforce, conflict, or complement each other.
 values:
   - abbrev: CSL
     name: consolidative

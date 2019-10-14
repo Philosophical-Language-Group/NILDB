@@ -1,22 +1,24 @@
 ---
 name: specification
-brief: TODO
-full: TODO
+brief: derivational domain of a stem
+full: |
+  SPECIFICATION derives from each [[Stem]] words referring to it as a whole, and
+  words referring to its content, form, and target.
 values:
   - abbr: BSC
     name: basic
-    brief: TODO
+    brief: stem itself
     full: TODO
   - abbr: CTE
     name: contential
-    brief: TODO
+    brief: content/interiority
     full: TODO
   - abbr: CSV
     name: constitutive
-    brief: TODO
+    brief: form/exteriority
     full: TODO
   - abbr: OBJ
     name: objective
-    brief: TODO
+    brief: target or associated entity
     full: TODO
 ...
