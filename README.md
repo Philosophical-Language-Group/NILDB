@@ -27,7 +27,17 @@ This project aims to maintain a comprehensive database of all lexical, morpholog
 * [ ] ~~Script to make markdown references~~ _See [TNIL Freedoc](https://github.com/HactarCE/tnil-freedoc/)_
 * [ ] Searchable dictionary, like [la sutysisku](https://la-lojban.github.io/sutysisku/en/) or [lathiel.fr's](http://www.laethiel.fr/ithkuil/dico.php)
 
+## Contributing
+
+Contributions are welcome!
+
+The [YAML](https://yaml.org/) layout is described in
+[morpho/_template.yaml](morpho/_template.yaml); formatting guidelines will come
+soon. See [progress.md](progress.md) for what's left to be done.
+
 ## Format
+
+TODO this is terribly outdated.
 
 ### roots.hjson
 
