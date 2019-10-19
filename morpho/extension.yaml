@@ -7,27 +7,27 @@ full: |
   as either circumscribed by or transcending the discursive context (i.e., is
   the whole object being discussed, or only part of it?).
 values:
-  - abbrev: DEL
+  - abbr: DEL
     name: delimitive
     brief: discrete, with accessible boundaries
     full: TODO
-  - abbrev: PRX
+  - abbr: PRX
     name: proximal
     brief: transcending the current context, or without accessible limits
     full: TODO
-  - abbrev: ICP
+  - abbr: ICP
     name: inceptive
     brief: spatiotemporal beginning
     full: TODO
-  - abbrev: ATV
+  - abbr: ATV
     name: attenuative
     brief: spatiotemporal end
     full: TODO
-  - abbrev: GRA
+  - abbr: GRA
     name: graduative
     brief: gradual/fading spatiotemporal beginning
     full: TODO
-  - abbrev: DPL
+  - abbr: DPL
     name: depletive
     brief: gradual/fading spatiotemporal end
     full: TODO

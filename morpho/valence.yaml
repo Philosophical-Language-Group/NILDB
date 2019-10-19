@@ -5,43 +5,43 @@ full: |
   VALENCE describes the role that parties other than the explicitly
   marked agent play in the action of a verb.
 values:
-  - abbrev: MNO
+  - abbr: MNO
     name: monoactive
     brief: no co-participant
     full: TODO
-  - abbrev: PRL
+  - abbr: PRL
     name: parallel
     brief: performing same activity
     full: TODO
-  - abbrev: CRO
+  - abbr: CRO
     name: corollary
     brief: performing related activity
     full: TODO
-  - abbrev: RCP
+  - abbr: RCP
     name: reciprocal
     brief: performing same activity with roles reversed
     full: TODO
-  - abbrev: CPL
+  - abbr: CPL
     name: complementary
     brief: performing distinct but complementary activity
     full: TODO
-  - abbrev: DUP
+  - abbr: DUP
     name: duplicative
     brief: performing same activity in parallel
     full: TODO
-  - abbrev: DEM
+  - abbr: DEM
     name: demonstrative
     brief: learning by demonstration
     full: TODO
-  - abbrev: CNG
+  - abbr: CNG
     name: contingent
     brief: performing next step of process
     full: TODO
-  - abbrev: PTI
+  - abbr: PTI
     name: participative
     brief: partcipating in activity
     full: TODO
-  - abbrev: IDC
+  - abbr: IDC
     name: indicative
     brief: perceiving cue/nuance/implication from first party
     full: TODO

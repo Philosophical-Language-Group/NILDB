@@ -17,7 +17,7 @@ full: |
   capitalized.
 
 values:
-  - abbrev: CV1
+  - abbr: CV1
     name: value A
     brief: brief phrase-length description of value A
     full: >
@@ -31,10 +31,10 @@ values:
       nearly all category values should have one. (Only numerical categories,
       like stem or VxCs degree, do not need it.) Brief descriptions, on the
       other hand, are always required.
-  - abbrev: CV2
+  - abbr: CV2
     name: value B
     brief: a few words
-  - abbrev: CV3
+  - abbr: CV3
     name: value C
     brief: “looks like X in a sentence”
     full: >

@@ -3,11 +3,11 @@ name: essence
 brief: real vs. imaginary
 full: TODO
 values:
-  - abbrev: NRM
+  - abbr: NRM
     name: normal
     brief: actually existing
     full: TODO
-  - abbrev: RPV
+  - abbr: RPV
     name: representative
     brief: hypothetical/imaginary/unrealized
     full: TODO

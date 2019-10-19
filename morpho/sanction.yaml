@@ -3,39 +3,39 @@ name: sanction
 brief: conversational role and truth-commitment
 full: TODO
 values:
-  - abbrev: PPS
+  - abbr: PPS
     name: propositional
     brief: materially factual
     full: TODO
-  - abbrev: EPI
+  - abbr: EPI
     name: epistemic
     brief: socially/conventionally factual
     full: TODO
-  - abbrev: ALG
+  - abbr: ALG
     name: allegative
     brief: personal opinion/belief
     full: TODO
-  - abbrev: IPU
+  - abbr: IPU
     name: imputative
     brief: assumption open to counter-argument
     full: TODO
-  - abbrev: REF
+  - abbr: REF
     name: refutative
     brief: counter-assertion based on conventional knowledge
     full: TODO
-  - abbrev: REB
+  - abbr: REB
     name: rebuttative
     brief: counter-assertion based on material facts
     full: TODO
-  - abbrev: CJT
+  - abbr: CJT
     name: conjectural
     brief: testable hypothesis
     full: TODO
-  - abbrev: EXV
+  - abbr: EXV
     name: expatiative
     brief: untestable hypothesis
     full: TODO
-  - abbrev: AXM
+  - abbr: AXM
     name: axiomatic
     brief: non-contestable truth
     full: TODO

@@ -3,39 +3,39 @@ name: illocution
 brief: facticity and speech act
 full: TODO
 values:
-  - abbrev: CNF
+  - abbr: CNF
     name: confirmative
     brief: testimony of direct observation
     full: TODO
-  - abbrev: INF
+  - abbr: INF
     name: inferential
     brief: conclusion of reasoning
     full: TODO
-  - abbrev: ITU
+  - abbr: ITU
     name: intuitive
     brief: intuition/hunch
     full: TODO
-  - abbrev: REV
+  - abbr: REV
     name: revelatory
     brief: vision/dream/altered state
     full: TODO
-  - abbrev: HSY
+  - abbr: HSY
     name: hearsay
     brief: secondhand information
     full: TODO
-  - abbrev: USP
+  - abbr: USP
     name: unspecified
     brief: unknown or unspecified Illocution
     full: TODO
-  - abbrev: DIR
+  - abbr: DIR
     name: directive
     brief: instruction/order/command
     full: TODO
-  - abbrev: IRG
+  - abbr: IRG
     name: interrogative
     brief: yes/no question
     full: TODO
-  - abbrev: DEC
+  - abbr: DEC
     name: declarative
     brief: performative declaration
     full: TODO

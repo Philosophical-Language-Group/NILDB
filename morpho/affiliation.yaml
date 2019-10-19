@@ -7,19 +7,19 @@ full: |
   [[Configuration]], AFFILIATION expresses the ways the roles or tendencies of
   the members of a group either reinforce, conflict, or complement each other.
 values:
-  - abbrev: CSL
+  - abbr: CSL
     name: consolidative
     brief: undetermined/irrelevant shared use/condition/purpose
     full: TODO
-  - abbrev: ASO
+  - abbr: ASO
     name: associative
     brief: shared use/condition/purpose
     full: TODO
-  - abbrev: VAR
+  - abbr: VAR
     name: variative
     brief: conflicted use/condition/purpose
     full: TODO
-  - abbrev: COA
+  - abbr: COA
     name: coalescent
     brief: complementary or emergent use/condition/purpose
     full: TODO
