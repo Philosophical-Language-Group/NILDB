@@ -7,7 +7,7 @@ values:
     name: processual
     brief: state or action that is an end in itself
     full: TODO
-  - sabbr: CPT
+  - abbr: CPT
     name: completive
     brief: goal-driven state or action
     full: TODO
