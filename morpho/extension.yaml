@@ -10,7 +10,9 @@ values:
   - abbr: DEL
     name: delimitive
     brief: discrete, with accessible boundaries
-    full: TODO
+    full: |
+      DELIMITIVE is the default or neutral extension used to refer to something
+      as a whole. It denotes the entirety of an object or event.
   - abbr: PRX
     name: proximal
     brief: transcending the current context, or without accessible limits
