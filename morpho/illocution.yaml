@@ -1,42 +1,28 @@
 ---
 name: illocution
-brief: facticity and speech act
-full: TODO
+brief: speech act
+full: >
+  ILLOCUTION identifies whether a speech act contains an factual claim, or
+  whether it serves a different function, such as making a declaration, promise,
+  affirmation, and so on.
+
+  Together with [[Expectation]], ILLOCUTION communicates the equivalent of
+  questions, commands, declarations.
 values:
-  - abbr: CNF
-    name: confirmative
-    brief: testimony of direct observation
-    full: TODO
-  - abbr: INF
-    name: inferential
-    brief: conclusion of reasoning
-    full: TODO
-  - abbr: ITU
-    name: intuitive
-    brief: intuition/hunch
-    full: TODO
-  - abbr: REV
-    name: revelatory
-    brief: vision/dream/altered state
-    full: TODO
-  - abbr: HSY
-    name: hearsay
-    brief: secondhand information
-    full: TODO
-  - abbr: USP
-    name: unspecified
-    brief: unknown or unspecified Illocution
-    full: TODO
-  - abbr: DIR
-    name: directive
-    brief: instruction/order/command
-    full: TODO
-  - abbr: IRG
-    name: interrogative
-    brief: yes/no question
-    full: TODO
-  - abbr: DEC
-    name: declarative
-    brief: performative declaration
-    full: TODO
+  - abbr: ASR
+    name: assertive
+    brief: statement of fact
+    full: >
+      ASSERTIVE Illocution indicates that a sentence contains a truth
+      claim. Assertives can be thought of as a specially marked kind of
+      Performative utterance. Specifically, speaker s marking sentence f with
+      ASSERTIVE changes the world such that "claims(s,f)" is now the case.
+  - abbr: PFM
+    name: performative
+    brief: declaration/promise/aspiration/affirmation
+    full: >
+      PERFORMATIVE speech acts are those that either lack factual content or
+      that enact a new state of affairs by being uttered. These utterances are
+      used for declarations, promises, aspirations, and so on. Verb choice is
+      used to be more precise about the kind of speech act being made.
 ...
