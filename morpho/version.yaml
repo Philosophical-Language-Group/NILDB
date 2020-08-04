@@ -6,9 +6,9 @@ values:
   - abbr: PRC
     name: processual
     brief: state or action that is an end in itself
-    full: TODO
+    full: Describes all acts, conditions, or events which are ends in themselves and not goal-oriented, i.e., are not focused on an anticipated otucome or final purpose toward which a progressive effort is being made. For example, "To study" is processual, while "To learn" is not.
   - abbr: CPT
     name: completive
     brief: goal-driven state or action
-    full: TODO
+    full: Describes all acts, conditions, or events which achieve, or are intended to achieve, an anticipated outcome, i.e., which are oriented toward the achievement of some purpose, outcome, or final state. For example, "to stop" is completive, while "to decelerate, to slow down" is not.
 ...
