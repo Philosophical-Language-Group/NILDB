@@ -29,7 +29,8 @@ This project aims to maintain a comprehensive database of all lexical, morpholog
 
 ## Contributing
 
-Contributions are welcome!
+Contributions are welcome! However, for licensing reasons you may not use any
+text from [ithkuil.net](http://ithkuil.net).
 
 The [YAML](https://yaml.org/) layout is described in
 [morpho/_template.yaml](morpho/_template.yaml); formatting guidelines will come
